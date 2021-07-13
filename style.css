@@ -1,8 +1,9 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 /* Header style start */
@@ -25,7 +26,7 @@ header .banner .left-content button{
     border: none;
     color: #fff;
     transition: all 0.3s ease;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-bottom: 2rem;
 }
 header .banner .left-content button:hover{
@@ -56,7 +57,12 @@ main .playere .neymar{
     width: 330px;
     height: auto;
     padding: 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+main .playere .neymar:hover{
+    box-shadow: none;
 }
 main .playere .neymar img{
     width: 100%;
@@ -68,6 +74,76 @@ main .playere .neymar .playere-des{
 /*----------
  mine .playere end
  -------*/
+ /*----------
+  all-highlights-copa start-
+  ---------- */
+.all-highlights-copa{
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    padding: 0 100px;
+}
+.all-highlights-copa .left{
+    width: 40%;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+}
+.all-highlights-copa .left h1{
+    font-weight: bold;
+    font-size: 48px;
+    color: #0A0826;
+}
+.all-highlights-copa .left p{
+    font-weight: normal;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.all-highlights-copa .left button{
+    padding: 10px 24px;
+    background: #E02C6D;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    /* margin-top: 2rem; */
+    margin-bottom: 2rem;
+}
+.all-highlights-copa .left button:hover{
+    background: transparent;
+    border: 1px solid #E02C6D;
+    color: #E02C6D;
+}
+.all-highlights-copa .right{
+    width: 40%;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+}
+.all-highlights-copa .right img{
+    width: 567px;
+    height: 427px;
+}
+/* ----------
+all-highlights-copa end
+---------- */
+/* --------------
+Footer start
+--------------- */
+footer{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .logo img{
+    width: 400px;
+    height: 120px;
+}
+footer .socal-icon a{
+    font-size: 2rem;
+    margin-right: 1.1rem;
+    color: #969BAB;
+
+}
 
 
 
@@ -82,4 +158,4 @@ main .playere .neymar .playere-des{
 
 
 
- 
+
