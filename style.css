@@ -57,9 +57,11 @@ main .playere .neymar{
     width: 330px;
     height: auto;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 5px;
     transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
 }
 main .playere .neymar:hover{
     box-shadow: none;
@@ -67,6 +69,15 @@ main .playere .neymar:hover{
 main .playere .neymar img{
     width: 100%;
     height: 256px;
+    border-radius: 5px;
+}
+main .playere .neymar .player-photos{
+    overflow: hidden;
+}
+
+main .playere .neymar:hover img{
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
 }
 main .playere .neymar .playere-des{
     width: 300px;
@@ -116,17 +127,39 @@ main .playere .neymar .playere-des{
     width: 40%;
     margin-left: 5%;
     /* margin-right: 5%; */
+    overflow: hidden;
 }
 .all-highlights-copa .right img{
     width: 567px;
     height: 427px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.all-highlights-copa .right:hover img{
+    transform: scale(1.3);
+    transition: all 0.3s ease-in-out;
 }
 /* ----------
 all-highlights-copa end
 ---------- */
+/* midia start */
+.midia-wrap{
+    margin-top: 10rem;
+}
+.midia-wrap h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.midia-wrap .midia{
+    display: flex;
+    justify-content: space-around;
+}
 /* --------------
 Footer start
 --------------- */
+
+
 footer{
     margin-top: 5rem;
     display: flex;
@@ -144,6 +177,9 @@ footer .socal-icon a{
     color: #969BAB;
 
 }
+
+
+
 
 
 
