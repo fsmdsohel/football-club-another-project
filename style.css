@@ -7,6 +7,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* Responsive web design  */
 @media screen and (max-width: 480px) {
     .banner{
         width: 1000px;
@@ -52,27 +53,7 @@ body{
   footer{
       width: 1000px;
   }
-
-
-
-
-
-
-
-
-
   }
-
-
-
-
-
-
-
-
-
-
-
 
 /* Header style start */
 header .banner{
@@ -259,7 +240,6 @@ footer .socal-icon a{
     font-size: 2rem;
     margin-right: 1.1rem;
     color: #969BAB;
-
 }
 
 
